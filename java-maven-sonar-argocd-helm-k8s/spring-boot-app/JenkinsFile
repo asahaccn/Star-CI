@@ -47,7 +47,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "CI-KING"
+            GIT_REPO_NAME = "CI-STAR"
             GIT_USER_NAME = "asahaccn"
         }
         steps {
